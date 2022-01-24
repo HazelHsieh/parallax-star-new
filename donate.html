@@ -19,7 +19,7 @@
 
     <!-- 自己寫的CSS -->
     <link rel="stylesheet" href="css/index-layout.css">
-    <link rel="stylesheet" href="css/index-contact.css">
+    <link rel="stylesheet" href="css/index-order.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container">
               <a class="navbar-brand" href="#">
-                <h3 class="logo"><img src="../group/img/logo.png" alt="" width="50px"> <span>一起看星星</span></h3>
+                <h3 class="logo"><img src="/img/logo.png" alt="" width="50px"> <span>一起看星星</span></h3>
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,44 +57,49 @@
     
     <main>
         <!-- 內文2 -->
-        <section class="about">
-        <div class="container">
-            <p class="border">
-                <div class="top-box"></div>
-                <div class="bottom-box">
-                    <p>聯絡我們</p>
-                    <p>親愛的使用者 您好：</p>
-                    <p>也歡迎透過打賞讓我們有動力一直持續下去。
-                        在網頁上都有載明其連絡電話及客服電子郵件信箱。</p>
-                    <p>若您是對一起看星星有使用上的問題或建議，
-                        歡迎您在工作天週一~週五9:00~18:00與我們聯絡。</p>
-                    <p>客服信箱：cisthepp56@gmail.com.tw</p>
-                    <p>收到您的來信後，我們將儘快為您服務。謝謝！</p>
-                    <p>祝 平安順心</p>
-                    <p>一起看星星客服部 敬上</p>
-                    
-                </div>
-                
-            </p>
-            
-            <div class="block">
-                <div class="block-style">
-                    <img src="./img/img/bg2.png" alt="" width="180px" height="200px">          
-                    <img src="./img/img/連結最新消息-bg圖.png" alt="" width="180px" height="200px">                 
-                    <img src="./img/img/連結關於我們-bg.png" alt="" width="180px" height="200px">
-                    <img src="./img/img/連結觀星地點-bg.png" alt="" width="180px" height="200px">
-                </div>
-            </div>
-
-        </div>
-        </section>
+        <section class="article" style="width: 100%; height: 100vh;">
+          <div class="container">
+              <form action="/store" method="POST">
+                  <p class="article-title">
+                      ~歡迎贊助~</br>
+                      親愛的使用者 您好：</br>
+                      謝謝您對一起看星星的支持，
+                      也歡迎透過打賞讓我們有動力一直持續下去。
+  
+                      在網頁上都有客服電子郵件信箱。
+                      若您是對一起看星星有使用上的問題或建議，
+                      歡迎您在工作天週一~週五9:00~18:00與我們聯絡。</br>
+  
+                      客服信箱：cisthepp56@gmail.com.tw</br>
+                      收到您的來信後，我們將儘快為您服務。謝謝！</br>
+                      祝 平安順心
+                      一起看星星客服部 敬上</p>
+                  <p class="article-title">感謝贊助</br> 金額一次 150 NT</p>
+                  <div class="row">
+                      <label for="">輸入名字</label>
+                      <input type="text" id="name" name="name" value="">
+                  </div>
+                  <div class="row custom">
+                      <label for="">輸入信箱</label>
+                      <input type="text" id="email" name="email" value="">
+                  </div>
+                  <div class="row btn ">
+                      <button type="submit">贊助</button>
+                      <a href="/" class="delete">取消</a>
+                  </div>
+                  <div class="function-area">
+                      <a class="create-msg" href="/data">贊助者資料</a>
+                  </div>
+              </form>
+          </div>
+      </section>
     </main>
 
     <footer>
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="../group/img/logo.png" width="50px" height="50px" alt="">
+            <img src="./img/logo.png" width="50px" height="50px" alt="">
           </a>
           <div class=" navbar-collapse ">
             <ul class="navbar-nav ml-auto my-2 navbar-nav-scroll">
