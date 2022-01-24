@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #17182f;
+}
+
+canvas {
+    display: block;
+    /* vertical-align: bottom; */
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.season .container p {
+    text-align: center;
+    font-size: 30px;
+}
+.season .container .contents{
+    width: 100%;
+}
+
+.season .container .contents .season-title .title{
+    position: fixed;
+    color: wheat;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    height: 100vh;
+}
+
+
+.season .container .contents .season-title .title1{
+    top: 20%;
+    left: 20%;
+
+}
+.season .container .contents .season-title .title2{
+    top: 20%;
+    left: 25%;
+
+}
+.season .container .contents .season-title .title3{
+    top: 20%;
+    left: 30%;
+
+}
+.season .container .contents .season-title .title4{
+    top: 20%;
+    left: 35%;
+
+}
+
+.season .container .contents .season-info{
+    width: 60%;
+    
+    position: relative;
+    margin: 0 0 0 auto;
+}
+
+.season .container .contents .season-info .season-box{
+    width: 100%;
+    
+}
