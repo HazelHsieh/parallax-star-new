@@ -18,7 +18,7 @@ const tabBtns = document.querySelectorAll('.tab');
 let guideContents = document.querySelectorAll('.guide-content');
 // guideContents[0].classList.remove('guide-content-none');
 let contents = document.querySelectorAll('.content');
-contents[0].classList.remove('content-none');
+contents[3].classList.remove('content-none');
 
 
 
